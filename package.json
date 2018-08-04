@@ -1,0 +1,20 @@
+{
+  "name": "redux-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "parcel src/index.html",
+    "start": "http-server src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.9.7"
+  }
+}
