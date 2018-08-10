@@ -8,12 +8,8 @@ Tutorial: https://redux.js.org/introduction
 
 Notes:
 
-1). Define all different types of actions
-2). Make action creators
-3). Create reducers that take in only the piece of state
-  use combineReducers()
-4). mapStateToProps:
-- basically anything you want your component to watch in the state/store
-5). mapDispatchToProps:
-- makes the store's dispatch available to action creators
-- defines anything that you want your compnonet to dispatch and change the store
+- Define all different types of actions
+- Make action creators
+- Create reducers that take in only the piece of state...use combineReducers()
+- mapStateToProps: basically anything you want your component to watch in the state/store
+- mapDispatchToProps: makes the store's dispatch available to action creators. Defines anything that you want your compnonet to dispatch and change the store
